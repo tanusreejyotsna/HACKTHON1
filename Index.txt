@@ -2,3 +2,43 @@ This is my first HACKTHON
 01/09/2025
 computerscience
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Small HTML Program</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f0f0f0;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 8px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is a small HTML program with some styling and interactivity.</p>
+  <button onclick="changeColor()">Change Background</button>
+
+  <script>
+    function changeColor() {
+      document.body.style.backgroundColor =
+        "#" + Math.floor(Math.random() * 16777215).toString(16);
+    }
+  </script>
+</body>
+</html>
