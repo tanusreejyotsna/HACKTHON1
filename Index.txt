@@ -9,7 +9,8 @@ computerscience
   <meta charset="UTF-8">
   <title>Small HTML Program</title>
   <style>
-    body {
+    body { 
+<img src="https://share.google/rvbXKeB2DNpCtHBzd" alt="Shared Image" width="400">
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 50px;
@@ -43,4 +44,5 @@ computerscience
 </body>
 </html>
 
-https://share.google/rvbXKeB2DNpCtHBzd
+
+
